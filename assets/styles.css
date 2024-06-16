@@ -37,5 +37,9 @@ img {
 }
 
 h1 {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
+}
+
+p {
+    font-family: "Raleway", verdana, sans-serif;
 }
