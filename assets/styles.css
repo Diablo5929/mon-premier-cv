@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(../assets/fonts/Raleway-Italic.ttf);
+}
+
 body {
     width: 100%;
     max-width: 1160px;
@@ -18,4 +33,9 @@ img {
     max-height: 100px;
     border: #782221;
     border-radius: 100%;
+    box-shadow: 7px 2px 12px;
+}
+
+h1 {
+    font-family: "Lato";
 }
