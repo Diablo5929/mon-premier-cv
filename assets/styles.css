@@ -13,3 +13,129 @@
     src: url(../assets/fonts/Raleway-Italic.ttf);
 }
 
+body{
+    width: 1160px;
+    margin: 0 auto;
+    border: 1px solid #2c1d27;
+    font-family: 'Raleway',sans-serif;
+}
+
+#profil {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: #782221;
+}
+
+#profil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+}
+
+#profil  h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'lato' ,sans-serif;
+}
+
+#profil p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#contact {
+        border: solid black;
+        background-color: black;
+}
+
+#contact address {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+#right {
+    background-color: #782221;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 1030px;
+}
+
+#right h3 {
+    padding-left: 20px;
+    margin-right: 20px;
+    background-color: antiquewhite;
+    font-family: 'Lato', sans-serif;
+}
+#right p {
+    text-align: justify; 
+    text-indent: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #dbc2a4;
+}
+
+#right li {
+    color: #dbc2a4;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+h3 {
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #dbc2a4;
+    font-family: 'lalo', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#fin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    background-color: #782221;
+}
+
+#fin img {
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+    
+
+
+             
